@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon">
+    <link rel="apple-touch-icon" size="72x72" href="apple-touch-icon" type="apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" size="114x114" href="apple-touch-icon" type="apple-touch-icon-114.114.png">
+    <meta name="description" content="web page test">
+    <meta name="keyword" content="html, webdev, Yury">
+    <meta name="author" content="YuryGorev">
+    <!-- for mobile devices -->
+    <meta name="viewport" content="width-device-width, initial-scale=1 user scalable=no">
+    <!-- for mobil devices & no resize -->
+    <meta name="viewport" content="width-device-width, initial-scale=1 user scalable=no">
+    <!-- use latest version of IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- for external styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table cellspacing="15"> <!-- разделитель -->
+        <td>
+            <img src="Img/MyPhoto2019v2.png" alt="Yury Gorev photo" width="200">
+        </td>
+        <td>
+            <h1>Юрій Горев</h1>
+            <p><em>тренер з <strong>плавання</strong></em></p>
+            <p>початківець по створенню web-сторінок</p>
+            <hr 2>
+            <p>Мої соц. мережи</p>
+            <ul type="square">
+                <!-- target="_blank" викликає у нове вікно  -->
+                <li><a href="https://instagram.com/vladlen.mimin" target="_blank">Instagram</a></li>
+                <li><a href="https://t.me/js_by_vladlen" target="_blank">Telegram</a></li>
+            </ul>
+        </td>
+    </table>
+    <hr 2>
+    <p>Мої хоббі</p>
+    <ol type="I">
+        <li>Спорт</li>
+        <li>Програмування</li>
+    </ol>
+    <hr 2>
+    <!-- <hr 5> -->
+    <hr>
+    <h2>Youtube курси</h2>
+    <a href="Youtube.html">Подивитися список</a>
+<hr>
+    <h2>Досвід роботи</h2>
+    <table border="3">
+        <thead>
+            <tr>
+                <th> Company </th>
+                <th> Position </th>
+                <th> Years </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> LBDP </td>
+                <td> Coach of Pentatlon modern </td>
+                <td> 1972 - 1976 </td>
+            </tr>
+            <tr>
+                <td> Cineskop </td>
+                <td> Worker </td>
+                <td> 1976 - 1977 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+        <tr>
+            <td> Dynamo </td>
+            <td> Coach </td>
+            <td> 1978 - 1979 </td>
+        </tr>
+        <tr>
+            <td> LNU </td>
+            <td> Teacher </td>
+            <td> 1979 - 2017 </td>
+        </tr>
+        <tr>
+            <td> Couch </td>
+            <td> Starfit </td>
+            <td> 2017 - </td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Связаться со мной</h2>
+    <form action="/">
+        <label for="name"> Ваше ім'я : </label>
+        <input type="text" id="name" placeholder="Введіть ім'я">
+        <br>
+        <label for="email">Ваш email :</label>
+        <input type="email" id="email" placeholder="Введіть email..." value="test@mail.ua">
+        <!--
+            <br>
+            <label for="text">Ваше повідомлення :</label>
+            <br>
+            <textarea id="text"></texterea>
+    -->
+        <br>
+    
+        <input type="submit" value="Зв'язатися!">
+    </form>
+</body>
+
+</html>
